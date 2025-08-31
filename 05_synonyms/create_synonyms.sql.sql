@@ -1,0 +1,7 @@
+-- SINONIMO PUBLICO PARA FECHA_GRABACION
+
+CREATE SYNONYM synonym_private_fecha FOR fecha_grabacion;
+
+-- SINONIMO PRIVADO PARA TABLA CANTANTES
+
+CREATE SYNONYM cantantes_syn FOR cantantes;
